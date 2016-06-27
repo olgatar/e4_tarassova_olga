@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic,300italic,300,100italic,100);
+
+body {
+  background: #ecf0f1;
+}
+
+
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 60px;
+}
+
+.page-header {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+h3 {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none !important;
+}
+
+.page-header-li {
+  margin: 10px 0 10px 10px;
+  padding: 0;
+}
+
+.page-header-li > a {
+  font-family: 'Lato', sans-serif;
+  padding: 10px !important;
+  border: 2px solid black !important;
+}
+
+.page-header-li > a:hover {
+  border-radius: 10px;
+}
+
+.page-header-li > a:focus {
+  border-radius: 10px;
+  background: #000 !important;
+  color: #fff !important;
+  border: 2px solid white !important;
+}
+
+.panel {
+  background-color: #000;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 1em;
+}
+
+.panel-body {
+  padding: 5px;
+}
+
+
+.chatt-input-panel {
+  border: 1px solid black !important;
+  color: #000;
+}
+
+#chat-input-button {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em !important;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+#chat-input-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.chatt-flow-panel {
+  border: none !important;
+  color: #fff;
+}
+
+
+.chat-messages-ul > li {
+  list-style-type: none;
+  padding: 10px 0 0 0;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  height: 40px;
+  background-color: #000;
+}
+
+.footer-paragraph {
+  margin: 0 auto;
+  padding: 10px 0px;
+  font-size: 1em;
+}
