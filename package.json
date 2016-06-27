@@ -1,0 +1,36 @@
+{
+  "name": "e4_tarassova_olga",
+  "version": "1.0.0",
+  "description": "Chat using MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olgatar/e4_tarassova_olga.git"
+  },
+  "author": "olga tarassova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olgatar/e4_tarassova_olga/issues"
+  },
+  "homepage": "https://github.com/olgatar/e4_tarassova_olga#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "mocha": "^2.5.3",
+    "mongodb": "^2.1.18",
+    "mongoose": "^4.5.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "mocha": "^2.5.3",
+    "mongoose": "^4.5.2",
+    "nodemon": "^1.9.2"
+  }
+}
